@@ -1,0 +1,56 @@
+/* #region 全体設定 */
+:root {
+    --primary-background: #0F172A;
+    --primary-text: #F8FAFC;
+
+    --secondary-background: #2f3847;
+    --secondary-text: #94A3B8;
+
+    --card-background: #20293a;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* #endregion */
+
+/* #region html */
+html {
+    background-color: var(--primary-background);
+    color: var(--primary-text);
+}
+/* #endregion */
+
+/* #region header */
+header {
+    text-align: center;
+}
+/* #endregion */
+
+/* #region footer */
+footer {
+    text-align: center;
+}
+/* #endregion*/
+
+/* #region img */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* #endregion */
+
+/* #region a */
+a {
+    color: var(--secondary-text);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--secondary-text);
+}
+
+a:hover {
+    color: var(--primary-text);
+}
+/* #endregion */

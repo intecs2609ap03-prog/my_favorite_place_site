@@ -2,45 +2,114 @@
 <html>
 
 <head>
+    <!-- #region head情報 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>おすすめのバイク旅行スポット紹介 | Home</title>
 
-    <link rel="stylesheet" href="./css/base_style.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/classes.css">
+    <!-- #endregion -->
 </head>
 
 <body>
     <header>
-        <p>おすすめのバイク旅行スポット紹介</p>
+        <h1 class="card">🏍おすすめのバイク旅行スポット紹介🏍</h1>
     </header>
 
-    <main id="rootId">
-        <div class="root">
-            <div class="sideBar" class="card">
+    <main>
+        <div class="sidebar-content-sepalater">
+            <!-- #region サイドバー -->
+            <div class="sideBar card">
                 <ul>
-                    <li><a href="#rootId">Home</a></li>
-                    <li><a href="./html/chausuyama.html">茶臼山</a></li>
-                    <li><a href="./html/chausuyama.html">ビーナスライン</a></li>
-                    <li><a href="./html/tsukechi.html">付知峡</a></li>
+                    <li><a href="./index.html" class="sidebar-item">Home</a></li>
+                    <li><a href="./html/chausuyama.html" class="sidebar-item">茶臼山</a></li>
+                    <li><a href="./html/venus_line.html" class="sidebar-item">ビーナスライン</a></li>
+                    <li><a href="./html/tsukechi.html" class="sidebar-item">付知峡</a></li>
                 </ul>
             </div>
+            <!-- #endregion -->
 
-            <div class="mainContent">
-                <h1 class="centerContent">ようこそ当サイトへ!</h1>
-                <img src="./rsc/hero.JPG">
-                <p>このサイトは投稿者がバイクで走ってみておすすめだと思ったスポットを紹介するサイトです。</p>
-                <h2>おすすめ度の評価方法</h2>
-                <ol>
-                    <li>路面状況</li>
-                    <li>行先での食事</li>
-                    <li>景色</li>
-                </ol>
+            <!-- #region ここからメインコンテンツ -->
+            <div><!-- 意味のないdivに見えるかもしれないがsidebar-content-sepalaterの子供は二つまでなのでメインコンテンツはここに入れていく -->
+                <div class="card">
+                    <h1 class="centerContent">ようこそ当サイトへ!</h1>
+                    <img src="./rsc/hero.JPG" alt="hero">
+                    <p>このサイトは投稿者がバイクで走ってみておすすめだと思ったスポットを紹介するサイトです。</p>
+                    <h2>おすすめ度の評価方法</h2>
+                    <ol>
+                        <li>路面状況</li>
+                        <li>行先での食事</li>
+                        <li>景色</li>
+                    </ol>
+                </div>
+
+                <div class="card">
+                    <h2>愛車紹介</h2>
+                    <p><strong>KAWASAKI ZZR1400 / Ninja ZX-14</strong></p>
+                    <div class="split2Items">
+                        <img src="./rsc/machine.JPG" alt="zzr1400">
+                        <table>
+                            <tr>
+                                <th>メーカー</th>
+                                <td>KAWASAKI</td>
+                            </tr>
+                            <tr>
+                                <th>車種</th>
+                                <td>ZZR1400 / Ninja ZX-14</td>
+                            </tr>
+                            <tr>
+                                <th>排気量</th>
+                                <td>1,352cc</td>
+                            </tr>
+                            <tr>
+                                <th>年式</th>
+                                <td>2006年式</td>
+                            </tr>
+                            <tr>
+                                <th>カテゴリ</th>
+                                <td>メガスポーツツアラー</td>
+                            </tr>
+                            <tr>
+                                <th>最高出力</th>
+                                <td>190PS / 200ps(ラム圧加圧時)</td>
+                            </tr>
+                            <tr>
+                                <th>最高速度</th>
+                                <td>300km/hでリミッター作動</td>
+                            </tr>
+                            <tr>
+                                <th>最高回転数</th>
+                                <td>11000rpm</td>
+                            </tr>
+                            <tr>
+                                <th>全長</th>
+                                <td>2,170mm</td>
+                            </tr>
+                            <tr>
+                                <th>仕向け地域</th>
+                                <td>北米/EU/マレーシア</td>
+                            </tr>
+                            <tr>
+                                <th>乾燥重量</th>
+                                <td>215kg</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <h3>特徴</h3>
+                    <p>
+                        <a href="https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AF%E3%82%B5%E3%82%AD%E3%83%BBZZR1400">ZZR1400
+                            / Ninja ZX-14</a>は、カワサキが2006年に発表したメガスポーツツアラーであり、コンセプトは
+                    </p>
+                </div>
             </div>
+            <!-- #endregion -->
         </div>
     </main>
 
     <footer>
-        <p>&copy; Yoshiki Tanaka 2022</p>
+        <a href="./html/license.html">&copy; Yoshiki Tanaka 2026</a>
     </footer>
 </body>
 
