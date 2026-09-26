@@ -6,7 +6,7 @@
     --secondary-background: #2f3847;
     --secondary-text: #94A3B8;
 
-    --card-background: #20293a;
+    --card-background: #20293a83;
 }
 
 * {
@@ -54,3 +54,13 @@ a:hover {
     color: var(--primary-text);
 }
 /* #endregion */
+
+#bg-canvas {
+    position: fixed;        /* 画面を基準に固定し、スクロールしても追従させる */
+    top: 0;
+    left: 0;
+    width: 100vw;           /* 画面の幅いっぱいに広げる */
+    height: 100vh;          /* 画面の高さいっぱいに広げる */
+    z-index: -1;            /* 他の要素より奥（背後）に配置する */
+    pointer-events: none;
+}

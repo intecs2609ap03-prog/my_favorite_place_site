@@ -9,10 +9,16 @@
 
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/classes.css">
+
+    <script src="./js/webgl_utils.js" defer></script>
+    <script src="./js/get_my_effect_program.js" defer></script>
+    <script src="./js/canvas_control.js" defer></script>
     <!-- #endregion -->
 </head>
 
 <body>
+    <canvas id="bg-canvas"></canvas>
+
     <header>
         <h1 class="card">🏍おすすめのバイク旅行スポット紹介🏍</h1>
     </header>
@@ -33,7 +39,7 @@
             <!-- #region ここからメインコンテンツ -->
             <div><!-- 意味のないdivに見えるかもしれないがsidebar-content-sepalaterの子供は二つまでなのでメインコンテンツはここに入れていく -->
                 <div class="card">
-                    <h1 class="centerContent">ようこそ当サイトへ!</h1>
+                    <h2 class="centerContent">ようこそ当サイトへ!</h2>
                     <img src="./rsc/hero.JPG" alt="hero">
                     <p>このサイトは投稿者がバイクで走ってみておすすめだと思ったスポットを紹介するサイトです。</p>
                     <h2>おすすめ度の評価方法</h2>
@@ -45,7 +51,7 @@
                 </div>
 
                 <div class="card">
-                    <h2>愛車紹介</h2>
+                    <h2 class="centerContent">愛車紹介</h2>
                     <p><strong>KAWASAKI ZZR1400 / Ninja ZX-14</strong></p>
                     <div class="split2Items">
                         <img src="./rsc/machine.JPG" alt="zzr1400">
@@ -99,7 +105,7 @@
 
                     <h3>特徴</h3>
                     <p>
-                        <a href="https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AF%E3%82%B5%E3%82%AD%E3%83%BBZZR1400">ZZR1400
+                        <a href="https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AF%E3%82%B5%E3%82%AD%E3%83%BBZZR1400" target="_blank">ZZR1400
                             / Ninja ZX-14</a>は、カワサキが2006年に発表したメガスポーツツアラーであり、コンセプトは
                     </p>
                 </div>
