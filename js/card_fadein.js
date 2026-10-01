@@ -2,7 +2,7 @@ const delayMilliSec = 300;
 
 const cards = document.querySelectorAll('.card');
 
-// 画面に表示された際に実行される関数を登録できるオブザーバーパターン
+// 画面に表示された際に実行される関数を登録できるオブザーバーパターンの実装
 const intersectionobserver = new IntersectionObserver((entries) => {
     let i = 1;
 
